@@ -2,6 +2,12 @@ package com.event.demo;
 
 import java.util.*;
 
+
+
+//Solo prueba de nueva rama
+
+
+
 public class PreferenciaOneHotEncoding {
     public static void main(String[] args) {
         // Datos de ejemplo
@@ -27,7 +33,7 @@ public class PreferenciaOneHotEncoding {
         int numPlatos = platos.size();
         
         double[] encodedVector = new double[numUsuarios + numVinos + numPlatos];
-         
+        
         int usuarioIndex = usuarios.indexOf(usuarioSeleccionado);
         int vinoIndex = vinos.indexOf(vinoSeleccionado);
         int platoIndex = platos.indexOf(platoSeleccionado);
