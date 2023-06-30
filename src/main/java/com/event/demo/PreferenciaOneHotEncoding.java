@@ -27,7 +27,7 @@ public class PreferenciaOneHotEncoding {
         int numPlatos = platos.size();
         
         double[] encodedVector = new double[numUsuarios + numVinos + numPlatos];
-        
+         
         int usuarioIndex = usuarios.indexOf(usuarioSeleccionado);
         int vinoIndex = vinos.indexOf(vinoSeleccionado);
         int platoIndex = platos.indexOf(platoSeleccionado);
